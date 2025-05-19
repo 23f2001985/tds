@@ -1,16 +1,19 @@
-main.yml
-name: Test Action
+# main.yml
+# name: Test Action
 
-on:
-   push:
-     branches:
-       - main 
- jobs:
-   test:
-     runs-on: ubuntu-latest
-     steps:
-       - name: Checkout code
-         uses: actions/checkout@v3
+# on:
+#   push:
+#     branches:
+#       - main  # or any branch you want to trigger the action
 
-       - name: 23f2001985@ds.study.iitm.ac.in
-         run: echo "Hello, world!"
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+
+#       - name: xxfxxxxxx@ds.study.iitm.ac.in
+#         run: echo "Hello, world!"
+
+     
